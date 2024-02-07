@@ -17,4 +17,15 @@
             document.getElementById("balance").innerHTML = balance;
         }
     </script>
+     <body>
+        <br><br>
+        <h1 style="font-family: arial;">Clicker game!</h1><br>
+        <button class="btn btn-lg btn-success" onclick="addMoney()">Give me money</button><br>
+        <p style="font-family: arial;">Money: $<span id="balance">0</span></p>
+           <script>
+            </body>
+        var balance = 0;
+        function addMoney(){
+            balance+++;
+            document.getElementById("balance").innerHTML = balance;
 </html>
